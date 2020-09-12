@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+* {
+    margin: 1;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+    background-color: red;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #d9b041;
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav ul li a {
+    font-size: 2rem;
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#main {
+    background-color: #d9b041;
+    background-image: url(imgs/background-img-hre-flag.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#title {
+    color: red;
+    font-size: 5rem;
+    font-family: "Times New Roman", "Times", serif;
+    text-align: center;
+    margin: 0;
+}
+
+.responsive {
+    width: 100%;
+    max-width: 503px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+figcaption {
+    max-width: 505px;
+    font-size: 1.75rem;
+    text-align: center;
+    background-color: #d9b041;
+    margin: 0 auto;
+    opacity: .9;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+body {
+    color: #ab0e16;
+    font-size: 1.85rem;
+    font-family: "EB Garamond", serif;
+    text-align: justify;
+}
+
+#tribute-info {
+    display: flex;
+    background-color: #d9b041;
+    opacity: .9;
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 1.3rem;
+    border-radius: 5px;
+}
+
+.videowrapper {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+footer {
+    text-align: center;
+    margin: 0;
+}
